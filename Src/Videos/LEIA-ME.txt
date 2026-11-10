@@ -1,0 +1,7 @@
+Os vídeos do site ficam só no servidor (cPanel), nesta pasta, e não vão para o GitHub (são grandes demais).
+Arquivos esperados aqui:
+- After Movie BIM Connection - M Techne.mp4
+- BIM Predial.mp4
+- Capa.mp4
+- Vídeo Site - 1.mp4
+Para trocar um vídeo: envie o arquivo novo direto pelo Gerenciador de Arquivos do cPanel, com o mesmo nome.
