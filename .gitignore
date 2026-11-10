@@ -1,0 +1,4 @@
+Src/Videos/
+*.zip
+.DS_Store
+Thumbs.db

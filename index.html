@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M Techne</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="shortcut icon" href="./Src/Logos/MTechne/FavMTechne.png" type="image/x-icon">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.css" rel="stylesheet" />
+  <link href='https://cdn.boxicons.com/3.0.5/fonts/brands/boxicons-brands.min.css' rel='stylesheet'>
+  <link href='https://cdn.boxicons.com/3.0.5/fonts/basic/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.css">
+</head>
+
+<body>
+
+  <!-- <header class="desktop" id="header">
+    <a href="#"><img class="logo" src="./Src/Logos/MTechne/LOGO_MTechne_CMYK_Prancheta_branco.png" alt="logo"></a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="#projetos">PROJETOS</a></li>
+        <li><a href="#newsletter">NEWSLETTER</a></li>
+      </ul>
+    </nav>
+    <a class="cta" href="https://api.whatsapp.com/send?phone=554192298251"><button>ENTRE EM CONTATO</button></a>
+    <a href="" class="home-open"><img src="./Src/Menu/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"></a>
+  </header> -->
+  <nav id="header">
+    <ul class="sidebar">
+      <li onclick=hideSidebar()><a href="#"><img src="./Src/Menu/close_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+            alt=""></a></li>
+      <li><a href="./Pages/projetos.html">Portfólio</a></li>
+      <li><a href="#newsletter">Newsletter</a></li>
+      <li><a href="./Pages/eventos.html">Eventos</a></li>
+      <li><a href="./Pages/vagas.html">Vagas</a></li>
+      <li><a class="ca" href="https://api.whatsapp.com/send?phone=554192298251" target="_blank"
+          rel="noopener noreferrer"><button>ENTRE EM CONTATO</button></a></li>
+    </ul>
+    <ul id="desktop-bar">
+      <li><a href="#"><img class="logo" src="./Src/Logos/MTechne/Logo M Techne SSloga.png" alt="logo"></a></li>
+      <li class="hideOnMobile"><a href="./Pages/projetos.html">Portfólio</a></li>
+      <li class="hideOnMobile"><a href="#newsletter">Newsletter</a></li>
+      <li class="hideOnMobile"><a href="./Pages/eventos.html">Eventos</a></li>
+      <li class="hideOnMobile"><a href="./Pages/vagas.html">Vagas</a></li>
+      <li><a class="cta" href="https://api.whatsapp.com/send?phone=554192298251" target="_blank"
+          rel="noopener noreferrer"><button>ENTRE EM CONTATO</button></a></li>
+      <li class="menu-button" onclick=showSidebar()><a href="#"><img
+            src="./Src/Menu/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg" alt=""></a></li>
+    </ul>
+  </nav>
+
+  <a href="https://api.whatsapp.com/send?phone=554192298251" class="whats-icon">
+    <img src="./Src/Icones/whatsapp.png" alt="">
+  </a>
+
+  <!----------- HERO ----------->
+
+  <div class="hero" id="home">
+    <video class="video" src="./Src/Videos/Capa.mp4" autoplay muted loop playsinline></video>
+    <div class="home-text">
+      <!-- <h3>Engenheiros certificados</h3> -->
+      <h1>Especialistas em <span>Projetos</span> <span>BIM</span></h1>
+
+    </div>
+  </div>
+
+  <!----------- LOGO ----------->
+
+  <div class="logos-section">
+    <div class="logos-slide">
+      <img src="./Src/Logos/Clientes/Avantus.png" alt="">
+      <img src="./Src/Logos/Clientes/Bairro.png" alt="">
+      <img src="./Src/Logos/Clientes/Bhaus.png" alt="">
+      <img src="./Src/Logos/Clientes/Construpar.png" alt="">
+      <img src="./Src/Logos/Clientes/Dreamis.png" alt="">
+      <img src="./Src/Logos/Clientes/Elmor.png" alt="">
+      <img src="./Src/Logos/Clientes/Enkan.png" alt="">
+      <img src="./Src/Logos/Clientes/Engsa.png" alt="">
+      <img src="./Src/Logos/Clientes/Fontana.png" alt="">
+      <img src="./Src/Logos/Clientes/Jota2f.png" alt="">
+      <img src="./Src/Logos/Clientes/Kubic.png" alt="">
+      <img src="./Src/Logos/Clientes/Laporte.png" alt="">
+      <img src="./Src/Logos/Clientes/Larchi.png" alt="">
+      <img src="./Src/Logos/Clientes/Lona.png" alt="">
+      <img src="./Src/Logos/Clientes/Lvr.png" alt="">
+      <img src="./Src/Logos/Clientes/Meio.png" alt="">
+      <img src="./Src/Logos/Clientes/Moni.png" alt="">
+      <img src="./Src/Logos/Clientes/Moratti.png" alt="">
+      <img src="./Src/Logos/Clientes/Nommo.png" alt="">
+      <img src="./Src/Logos/Clientes/Otus.png" alt="">
+      <img src="./Src/Logos/Clientes/Rcf.png" alt="">
+      <img src="./Src/Logos/Clientes/Thal.png" alt="">
+      <img src="./Src/Logos/Clientes/Veres.png" alt="">
+      <img src="./Src/Logos/Clientes/Vert.png" alt="">
+      <img src="./Src/Logos/Clientes/Zah.png" alt="">
+    </div>
+    <div class="logos-slide">
+      <img src="./Src/Logos/Clientes/Avantus.png" alt="">
+      <img src="./Src/Logos/Clientes/Bairro.png" alt="">
+      <img src="./Src/Logos/Clientes/Bhaus.png" alt="">
+      <img src="./Src/Logos/Clientes/Construpar.png" alt="">
+      <img src="./Src/Logos/Clientes/Dreamis.png" alt="">
+      <img src="./Src/Logos/Clientes/Elmor.png" alt="">
+      <img src="./Src/Logos/Clientes/Enkan.png" alt="">
+      <img src="./Src/Logos/Clientes/Engsa.png" alt="">
+      <img src="./Src/Logos/Clientes/Fontana.png" alt="">
+      <img src="./Src/Logos/Clientes/Jota2f.png" alt="">
+      <img src="./Src/Logos/Clientes/Kubic.png" alt="">
+      <img src="./Src/Logos/Clientes/Laporte.png" alt="">
+      <img src="./Src/Logos/Clientes/Larchi.png" alt="">
+      <img src="./Src/Logos/Clientes/Lona.png" alt="">
+      <img src="./Src/Logos/Clientes/Lvr.png" alt="">
+      <img src="./Src/Logos/Clientes/Meio.png" alt="">
+      <img src="./Src/Logos/Clientes/Moni.png" alt="">
+      <img src="./Src/Logos/Clientes/Moratti.png" alt="">
+      <img src="./Src/Logos/Clientes/Nommo.png" alt="">
+      <img src="./Src/Logos/Clientes/Otus.png" alt="">
+      <img src="./Src/Logos/Clientes/Rcf.png" alt="">
+      <img src="./Src/Logos/Clientes/Thal.png" alt="">
+      <img src="./Src/Logos/Clientes/Veres.png" alt="">
+      <img src="./Src/Logos/Clientes/Vert.png" alt="">
+      <img src="./Src/Logos/Clientes/Zah.png" alt="">
+    </div>
+  </div>
+
+  <!----------- MID ----------->
+
+  <div class="mid-row" id="div">
+    <div class="left-row-title">
+      <h1>Revolucionando a<br><span>Forma de Projetar</span></h1>
+    </div>
+  </div>
+  <div class="mid-row3">
+    <a href="./Pages/projetos.html">
+      <div class="left-row">
+        <h1>Prediais</h1>
+      </div>
+    </a>
+    <a href="./Pages/projetos.html">
+      <div class="center-row">
+        <h1>Condominiais</h1>
+      </div>
+    </a>
+    <a href="./Pages/projetos.html">
+      <div class="center-row2">
+        <h1>Residenciais</h1>
+      </div>
+    </a>
+    <a href="./Pages/projetos.html">
+      <div class="right-row" id="homecom">
+        <h1>Comerciais</h1>
+      </div>
+    </a>
+  </div>
+
+  <!----------- GRID ----------->
+
+  <div class="grid-container" id="projetos">
+    <div class="grid-wrap">
+      <div class="grid-mini">
+        <div class="grid-inside-mini">
+          <ion-icon name="cash-outline"></ion-icon>
+          <h1>Maximizando Sua Economia</h1>
+          <h3>Quantificação precisa e planejamento eficiente, reduzindo desperdícios e custos ocultos na obra.</h3>
+          <!-- <h3>A metodologia garante quantificação precisa e planejamento eficiente, reduzindo desperdícios e evitando custos ocultos durante a obra.</h3> -->
+        </div>
+      </div>
+      <div class="grid-mini" id="second-mini">
+        <div class="grid-inside-mini">
+          <ion-icon name="bar-chart-outline"></ion-icon>
+          <h1>Previsibilidade Total da Obra</h1>
+          <h3>Antecipe erros e custos com BIM, reduzindo improvisos, retrabalho e aumentando a segurança nas decisões.
+          </h3>
+          <!-- <h3>Com o BIM, você antecipa erros e custos antes da obra começar, reduzindo improvisos, retrabalho e aumentando a segurança nas decisões.</h3> -->
+        </div>
+      </div>
+      <div class="grid-mini">
+        <div class="grid-inside-mini">
+          <ion-icon name="rocket-outline"></ion-icon>
+          <h1>Sua Obra Mais Rápida</h1>
+          <h3>Cronogramas integrados ao modelo, garantindo fluxo de obra eficiente e prazos confiáveis.</h3>
+          <!-- <h3>Com cronogramas integrados ao modelo, as equipes atuam no momento certo, garantindo fluxo de obra mais eficiente e prazos confiáveis.</h3> -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!----------- MID2 ----------->
+
+  <div class="mid-row">
+    <div class="left-row-title">
+      <h1>Nossas <span>Soluções</span></h1>
+    </div>
+    <div class="right-row-title">
+    </div>
+  </div>
+  <div class="mid-row2">
+    <div class="half-row">
+      <div class="project-img">
+        <img src="./Src/Projects/Estrutural.svg" alt="">
+        <h1>Estrutural</h1>
+      </div>
+      <div class="project-img">
+        <img src="./Src/Projects/Hidraulica.svg" alt="">
+        <h1>Hidrossanitário</h1>
+      </div>
+      <div class="project-img">
+        <img src="./Src/Projects/gas.svg" alt="">
+        <h1>Gás</h1>
+      </div>
+      <div class="project-img">
+        <img src="./Src/Projects/Bombeiro.svg" alt="">
+        <h1>PCI</h1>
+      </div>
+      <div class="project-img">
+        <img src="./Src/Projects/Eletrica.svg" alt="">
+        <h1>Elétrica</h1>
+      </div>
+      <div class="project-img">
+        <img src="./Src/Projects/Logica.svg" alt="">
+        <h1>Lógica</h1>
+      </div>
+    </div>
+    <div class="half-row">
+      <div class="project-img">
+        <img src="./Src/Projects/HVAC.svg" alt="">
+        <h1>HVAC</h1>
+      </div>
+      <div class="project-img">
+        <img src="./Src/Projects/SPDA.svg" alt="">
+        <h1>SPDA</h1>
+      </div>
+      <div class="project-img">
+        <img src="./Src/Projects/Topografia.svg" alt="">
+        <h1>Topografia</h1>
+      </div>
+      <div class="project-img">
+        <img src="./Src/Projects/Corte e Aterro.svg" alt="">
+        <h1>Corte e Aterro</h1>
+      </div>
+      <div class="project-img">
+        <img src="./Src/Projects/Quantitativo.svg" alt="">
+        <h1>Quantitativo</h1>
+      </div>
+      <div class="project-img">
+        <img src="./Src/Projects/Compat.svg" alt="">
+        <h1>Compatibilização</h1>
+      </div>
+    </div>
+  </div>
+
+  <div class="center-video">
+    <video src="./Src/Videos/BIM Predial.mp4" autoplay muted loop playsinline></video>
+  </div>
+
+  <div class="map-container">
+    <div class="right-map">
+      <div class="right-map-row">
+        <div class="map-info">
+          <h1>+1.000.000m²</h1>
+          <h2>de projetos (área construída)</h2>
+        </div>
+        <div class="map-info">
+          <h1>R$600mi</h1>
+          <h2>economizados em obras</h2>
+        </div>
+      </div>
+      <div class="right-map-row">
+        <div class="map-info">
+          <h1>+7 anos</h1>
+          <h2>de experiência no mercado</h2>
+        </div>
+        <div class="map-info">
+          <h1>+300</h1>
+          <h2>clientes pelo Brasil</h2>
+        </div>
+        <div class="map-info">
+          <h1>12</h1>
+          <h2>estados do país</h2>
+        </div>
+      </div>
+    </div>
+    <div class="left-map">
+      <img src="./Src/Mapa M Techne.png" alt="">
+    </div>
+  </div>
+
+
+
+  <div class="solutions">
+    <div id="demo">
+      <div id="owl-demo" class="owl-carousel">
+        <a href="./Pages/projetos.html#kronosI">
+          <div class="item" id="kronosI">
+            <h1>Kronos I</h1>
+            <h2>31.114,62 m²</h2>
+          </div>
+        </a>
+        <a href="./Pages/projetos.html#zenith">
+          <div class="item" id="zenith">
+            <h1>Zenith</h1>
+            <h2>5.505,5 m²</h2>
+          </div>
+        </a>
+        <a href="./Pages/projetos.html#BARIGUI">
+          <div class="item" id="BARIGUI">
+            <h1>Barigui</h1>
+            <h2>1.597,05 m²</h2>
+          </div>
+        </a>
+        <a href="./Pages/projetos.html#kronosII">
+          <div class="item" id="kronosII">
+            <h1>Kronos II</h1>
+            <h2>21.717,8 m²</h2>
+          </div>
+        </a>
+        <a href="./Pages/projetos.html#alamedas">
+          <div class="item" id="alamedas">
+            <h1>Alamedas</h1>
+            <h2>1.546,88 m²</h2>
+          </div>
+        </a>
+        <a href="./Pages/projetos.html#BS">
+          <div class="item" id="BS">
+            <h1>BS</h1>
+            <h2>600 m²</h2>
+          </div>
+        </a>
+        <a href="./Pages/projetos.html#stenzo">
+          <div class="item" id="stenzo">
+            <h1>Stenzo</h1>
+            <h2>6.420 m²</h2>
+          </div>
+        </a>
+        <a href="./Pages/projetos.html#felicita">
+          <div class="item" id="felicita">
+            <h1>Felicitá 2</h1>
+            <h2>605,3 m²</h2>
+          </div>
+        </a>
+        <a href="./Pages/projetos.html#AE">
+          <div class="item" id="AE">
+            <h1>A&E</h1>
+            <h2>642,92 m²</h2>
+          </div>
+        </a>
+
+        <a href="./Pages/projetos.html#tibo">
+          <div class="item" id="tibo">
+            <h1>Tibó</h1>
+            <h2>5.139,14 m²</h2>
+          </div>
+        </a>
+        <a href="./Pages/projetos.html#arbol">
+          <div class="item" id="arbol">
+            <h1>Arbol</h1>
+            <h2>3.683,63 m²</h2>
+          </div>
+        </a>
+        <a href="./Pages/projetos.html#IVY">
+          <div class="item" id="IVY">
+            <h1>Ivy</h1>
+            <h2>903,35 m²</h2>
+          </div>
+        </a>
+      </div>
+      <a href="./Pages/projetos.html"><button class="button">conheça mais projetos</button></a>
+    </div>
+  </div>
+
+
+  <div>
+    <div class="owl-container">
+      <div class="title-container" id="clients">
+        <h1 id="title">Projetos <span>Validados</span><br>Por Quem <span>Constrói</span></h1>
+      </div>
+      <div id="owl-about" class="owl-carousel">
+        <div class="item">
+          <div class="item-image-container">
+            <div class="item-image">
+              <img src="./Src/Depoimentos/Sicuro/QUINTA.jpeg" alt="">
+            </div>
+            <div class="item-image">
+              <img src="./Src/Depoimentos/Sicuro/Rodolfo Sicuro.jpg" alt="">
+            </div>
+          </div>
+          <div class="item-text-container">
+            <h4>ED. QUINTA</h4>
+            <h1>“A M Techne se destaca desde o início do desenvolvimento dos projetos pela organização dos seus
+              processos e pelas etapas de projeto bem definidas. Um dos grandes diferenciais é a coordenação de todas as
+              disciplinas de projetos complementares em BIM em um único lugar, trazendo mais alinhamento técnico e
+              agilidade na compatibilização. Sem dúvidas, é uma empresa que vale a pena ter como parceira.”</h1>
+            <h2 id="name-testimonial">RODOLFO SICURO</h2>
+            <h3>Diretor - Sicuro Engenharia</h3>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-image-container">
+            <div class="item-image">
+              <img src="./Src/Depoimentos/Anderson-Nommo/P&A - Nommo.png" alt="">
+            </div>
+            <div class="item-image">
+              <img src="./Src/Depoimentos/Anderson-Nommo/Anderson Nommo.jpg" alt="">
+            </div>
+          </div>
+          <div class="item-text-container">
+            <h4>RES. P&A</h4>
+            <h1>“A relação com a M Techne tem sido muito positiva, pois eles têm uma facilidade de comunicação, sempre
+              abertos à troca de ideias que vão melhorar o projeto tecnicamente, trazendo propostas de soluções. E, ao
+              mesmo tempo, eles trazem um uso constante da tecnologia BIM, então isso também facilita o desenvolvimento
+              do projeto.”</h1>
+            <h2 id="name-testimonial">ANDERSON LUÍS</h2>
+            <h3>Diretor - Nommo Arquitetura</h3>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-image-container">
+            <div class="item-image">
+              <img src="./Src/Depoimentos/Ignacio/OkaBacacheri.jpg" alt="">
+            </div>
+            <div class="item-image">
+              <img src="./Src/Depoimentos/Ignacio/IgnacioHerreraCGL.jpg" alt="">
+            </div>
+          </div>
+          <div class="item-text-container">
+            <h4>RES. OKÁ BACACHERI</h4>
+            <h1>“Os projetos da M Techne possuem um elevado nível de detalhamento e compatibilização entre disciplinas.
+              O atendimento da equipe é excelente e sempre buscam entender as necessidades da empresa contratante para
+              um melhor resultado final e maior facilidade de execução no canteiro de obras.” </h1>
+            <h2 id="name-testimonial">IGNÁCIO HERRERA</h2>
+            <h3>Diretor de Engenharia - CGL</h3>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-image-container">
+            <div class="item-image">
+              <img src="./Src/Depoimentos/Guilherme/STENZO 2.jpeg" alt="">
+            </div>
+            <div class="item-image">
+              <img src="./Src/Depoimentos/Guilherme/Guilherme Macedo.jpg" alt="">
+            </div>
+          </div>
+          <div class="item-text-container">
+            <h4>ED. STENZO</h4>
+            <h1>“A experiência de trabalhar com a M Techne sempre foi muito produtiva. Além da competência técnica e da
+              capacidade de resolver problemas e desenvolver os projetos, sempre tivemos uma grande liberdade na
+              comunicação, que é o que eu entendo como uma verdadeira parceria. Quando você trabalha com parceiros
+              dedicados e abertos a ideias, o processo se torna muito mais leve e facilitador.”</h1>
+            <h2 id="name-testimonial">GUILHERME MACEDO</h2>
+            <h3>Diretor - Lona Group</h3>
+          </div>
+        </div>
+        <div class="item">
+          <div class="item-image-container">
+            <div class="item-image">
+              <img src="./Src/Depoimentos/Angelo/AURA.jpg" alt="">
+            </div>
+            <div class="item-image">
+              <img src="./Src/Depoimentos/Angelo/Angelo.jpg" alt="">
+            </div>
+          </div>
+          <div class="item-text-container">
+            <h4>ED. AURA</h4>
+            <h1>“Minha experiência com a M Techne tem sido de muita satisfação. Tenho desenvolvido trabalhos com a
+              equipe que vêm gerando excelentes resultados. Percebo que são altamente dedicados no que fazem e buscam
+              entregar, com excelência e comprometimento, todas as etapas dos projetos aos quais se propõem, sempre com
+              muita qualidade em todas as esferas do trabalho.”</h1>
+            <h2 id="name-testimonial">ANGELO SANTOS JR</h2>
+            <h3>Diretor - Avantus Incorporadora</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="contato">
+    <div class="contato-text">
+      <h1>Venha <span>economizar e inovar</span> na sua Obra!</h1>
+      <a href="https://api.whatsapp.com/send?phone=554192298251" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+    </div>
+  </div>
+
+  <div class="news-grid-container" id="newsletter">
+    <div class="grid-wrap-news">
+      <div class="title-container" id="grid-news">
+        <h1 id="title">Facilitando a Vida<br>de Quem <span>Constrói</span></h1>
+      </div>
+      <div class="news-text-container">
+
+        <div class="news-text">
+          <h2>Assine Nossa</h2>
+          <h1>newsletter</h1>
+        </div>
+        <form>
+          <div class="input-row">
+            <!-- <input type="hidden" name="Created" value="x-sheetmonkey-current-date-time" />
+              <input type="hidden" name="Type" value="newsletter" /> -->
+            <input type="email" placeholder="Insira seu e-mail" name="email" required>
+            <a href="">
+              <button class="news-button" type="submit">
+                <i class='bxr  bx-paper-plane'></i>
+              </button>
+            </a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div id="footer_content">
+      <div id="footer_contacts">
+        <a class="footer-logo">
+          <img src="./Src/Logos/MTechne/Logo M Techne Branca SSlogan" alt="">
+        </a>
+
+        <div id="footer_social_media">
+          <a href="https://www.instagram.com/mtechne.eng/" target="_blank" rel="noopener noreferrer" class="footer-link"
+            id="instagram">
+            <img src="./Src/Servicos/Insta.png" alt="">
+          </a>
+
+          <a href="https://www.facebook.com/mtechne.eng/" target="_blank" rel="noopener noreferrer" class="footer-link"
+            id="facebook">
+            <img src="./Src/Servicos/Linkedin.png" alt="">
+          </a>
+
+          <a href="https://api.whatsapp.com/send?phone=554192298251" target="_blank" rel="noopener noreferrer"
+            class="footer-link" id="whatsapp">
+            <img src="./Src/Servicos/Whats.png" alt="">
+          </a>
+        </div>
+      </div>
+
+      <ul class="footer-list">
+        <li>
+          <ion-icon name="map-outline"></ion-icon>
+          <a href="https://waze.com/ul/h6gkzprhr0" class="footer-link">Fiep - Prédio Principal, Habitat Aceleradora -
+            Sala 27, Av. Comendador Franco, 1341, Curitiba</a>
+        </li>
+        <li>
+          <ion-icon name="call-outline"></ion-icon>
+          <a href="tel:+554192298251" class="footer-link">(41) 99229-8251</a>
+        </li>
+        <li>
+          <ion-icon name="call-outline"></ion-icon>
+          <a href="tel:+554131210117" class="footer-link">(41) 3121-0117</a>
+        </li>
+      </ul>
+
+      <ul class="footer-list">
+        <li>
+          <a href="./Pages/projetos.html" class="footer-link">PORTFÓLIO</a>
+        </li>
+        <li>
+          <a href="#newsletter" class="footer-link">NEWSLETTER</a>
+        </li>
+        <li>
+          <a href="#" class="footer-link">VAGAS</a>
+        </li>
+        <li>
+          <a href="./Pages/bimConnection.html" class="footer-link">BIM CONNECTION</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="footer_copyright">
+      &#169
+      2026 all rights reserved
+    </div>
+  </footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js'></script>
+  <script src="script.js"></script>
+  <script src="config.js"></script>
+  <script src="email.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+  <script>
+    $(document).ready(function () {
+
+      var owl = $("#owl-demo");
+
+      owl.owlCarousel({
+
+        // Define custom and unlimited items depending from the width
+        // If this option is set, itemsDeskop, itemsDesktopSmall, itemsTablet, itemsMobile etc. are disabled
+        // For better preview, order the arrays by screen size, but it's not mandatory
+        // Don't forget to include the lowest available screen size, otherwise it will take the default one for screens lower than lowest available.
+        // In the example there is dimension with 0 with which cover screens between 0 and 450px
+
+        //Basic Speeds
+        slideSpeed: 200,
+        paginationSpeed: 800,
+
+        //Autoplay
+        autoPlay: true,
+        goToFirst: true,
+        goToFirstSpeed: 1000,
+
+        // Navigation
+        navigation: false,
+        navigationText: ["prev", "next"],
+        pagination: true,
+
+
+        // Responsive
+        responsive: true,
+        items: 4,
+        itemsDesktop: [1400, 4],
+        itemsTablet: [1250, 3],
+        itemsMobile: [500, 2]
+
+      });
+
+    });
+  </script>
+  <script>
+    $(document).ready(function () {
+
+      var owl = $("#owl-about");
+
+      owl.owlCarousel({
+
+        // Define custom and unlimited items depending from the width
+        // If this option is set, itemsDeskop, itemsDesktopSmall, itemsTablet, itemsMobile etc. are disabled
+        // For better preview, order the arrays by screen size, but it's not mandatory
+        // Don't forget to include the lowest available screen size, otherwise it will take the default one for screens lower than lowest available.
+        // In the example there is dimension with 0 with which cover screens between 0 and 450px
+
+        //Basic Speeds
+        slideSpeed: 200,
+        paginationSpeed: 100,
+
+        //Autoplay
+        autoPlay: true,
+        goToFirst: true,
+        goToFirstSpeed: 400,
+
+        // Navigation
+
+        navigation: false,
+        navigationText: ["prev", "next"],
+        pagination: true,
+
+        // Responsive
+        responsive: true,
+        items: 1,
+        itemsDesktop: [1400, 1],
+        itemsTablet: [1200, 1],
+        itemsMobile: [800, 1],
+
+      });
+
+    });
+  </script>
+  <script>
+
+    /* Please ❤ this if you like it! */
+
+    (function ($) {
+      "use strict";
+
+      $(function () {
+        var header = $(".start-style");
+        $(window).scroll(function () {
+          var scroll = $(window).scrollTop();
+
+          if (scroll >= 10) {
+            header.removeClass('start-style').addClass("scroll-on");
+          } else {
+            header.removeClass("scroll-on").addClass('start-style');
+          }
+        });
+      });
+
+      //Animation
+
+      $(document).ready(function () {
+        $('body.hero-anime').removeClass('hero-anime');
+      });
+
+      //Menu On Hover
+
+      $('body').on('mouseenter mouseleave', '.nav-item', function (e) {
+        if ($(window).width() > 750) {
+          var _d = $(e.target).closest('.nav-item'); _d.addClass('show');
+          setTimeout(function () {
+            _d[_d.is(':hover') ? 'addClass' : 'removeClass']('show');
+          }, 1);
+        }
+      });
+
+    })(jQuery); 
+  </script>
+
+  <script>
+    function showSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'flex'
+    }
+    function hideSidebar() {
+      const sidebar = document.querySelector('.sidebar')
+      sidebar.style.display = 'none'
+    }
+  </script>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js'></script>
+
+</html>
