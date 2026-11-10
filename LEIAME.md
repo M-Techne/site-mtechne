@@ -4,7 +4,7 @@ Código do site (HTML, CSS, JavaScript e imagens). Cópia feita do servidor (cPa
 
 ## O que NÃO está aqui
 - **Vídeos** (`Src/Videos/`, 4 arquivos, ~390 MB): ficam só no servidor. Ver `Src/Videos/LEIA-ME.txt`.
-- `wp-content/home/index.html`: página antiga guardada no servidor, sem uso no site. Está no repositório mas **não é publicada** pelo `.cpanel.yml`.
+- `wp-content/`: **não pertence ao site**. Em 10/11/2026 foi achada no servidor uma página de spam (cassino) em `wp-content/home/`, criada em 18/10/2026 por invasão. Foi tirada daqui; precisa ser apagada também no servidor (o deploy não apaga nada).
 
 ## Como atualizar o site
 1. Editar os arquivos aqui (pelo GitHub, num branch, com Pull Request) e mesclar na `main`.
@@ -13,6 +13,7 @@ Código do site (HTML, CSS, JavaScript e imagens). Cópia feita do servidor (cPa
 4. Conferir o site no ar.
 
 ## Cuidados
+- Ícone do site (favicon): `favicon.ico` na raiz e `Src/Logos/MTechne/favicon-96.png` / `favicon-192.png`, quadrados, gerados de `FavMTechne.png`. As páginas usam caminho a partir da raiz (`/favicon.ico`).
 - Nunca apontar o repositório do cPanel para a própria `public_html`: clonar numa pasta nova (ex.: `repositorios/site-mtechne`).
 - Não colocar senhas, chaves ou dados de clientes aqui.
 - O `.cpanel.yml` ainda não foi testado no servidor real.
