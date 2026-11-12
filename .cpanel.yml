@@ -4,4 +4,4 @@ deployment:
     # Copia o site para o public_html. Só adiciona/atualiza arquivos: NÃO apaga nada (os vídeos ficam em Src/Videos, só no servidor).
     - export DEPLOYPATH=/home/mtechnec/public_html/
     - /bin/cp -Rf Pages Src assets font-awesome-4.7.0 owl-carousel $DEPLOYPATH
-    - /bin/cp -f index.html favicon.ico sitemap.html sitemap.xml sitemap.xml.gz style.css script.js vagas.js modal.js email.js config.js ror.xml urllist.txt google6175b10362d76f84.html google7a49ec715ab3be6a.html $DEPLOYPATH
+    - /bin/cp -f index.html favicon.ico sitemap.html sitemap.xml sitemap.xml.gz style.css script.js vagas.js modal.js email.js config.js ror.xml urllist.txt google7a49ec715ab3be6a.html $DEPLOYPATH

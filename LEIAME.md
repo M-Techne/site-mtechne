@@ -5,6 +5,7 @@ Código do site (HTML, CSS, JavaScript e imagens). Cópia feita do servidor (cPa
 ## O que NÃO está aqui
 - **Vídeos** (`Src/Videos/`, 4 arquivos, ~390 MB): ficam só no servidor. Ver `Src/Videos/LEIA-ME.txt`.
 - `wp-content/`: **não pertence ao site**. Em 10/11/2026 foi achada no servidor uma página de spam (cassino) em `wp-content/home/`, criada em 18/10/2026 por invasão. Foi tirada daqui; precisa ser apagada também no servidor (o deploy não apaga nada).
+- `google6175b10362d76f84.html`: arquivo de verificação do Google gravado pelo invasor (18/10 e 11/11/2026). Removido daqui e do `.cpanel.yml`; apagar também no servidor. A verificação legítima é a `google7a49ec715ab3be6a.html`.
 
 ## Como atualizar o site
 1. Editar os arquivos aqui (pelo GitHub, num branch, com Pull Request) e mesclar na `main`.
